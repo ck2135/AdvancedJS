@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.clock {
+    width: 600px;
+    height: 600px;
+    border: 2px solid brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 30px;
+    color: green;
+    background-color: gold;
+}
+
+#DigitalClock {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 7px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
